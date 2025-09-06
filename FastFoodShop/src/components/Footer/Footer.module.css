@@ -1,0 +1,146 @@
+.footer {
+  flex-direction: column;
+  gap: 20px;
+}
+.higherFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 100px;
+  background-color: #e4e2e2;
+  gap: 20px;
+}
+.logoImage {
+  margin-bottom: 20px;
+}
+.higherFooter p {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #03081f;
+}
+.lowerFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 100px;
+  gap: 20px;
+  background-color: #03081f;
+}
+.lowerFooter p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.links {
+  display: flex;
+  gap: 20px;
+}
+.leftSide {
+  display: grid;
+  gap: 20px;
+}
+.rightSide {
+  display: grid;
+  gap: 20px;
+}
+.links a {
+  color: #03081f;
+}
+.socials input {
+  background-color: #d9d9d9;
+  border-radius: 25px;
+  padding: 15px 30px;
+  width: 300px;
+  color: #03081f;
+  border: none;
+
+  outline: none;
+}
+.socials {
+  margin-right: 100px;
+}
+.socials h3 {
+  margin-bottom: 55px;
+}
+.input button {
+  position: absolute;
+  right: -80px;
+  top: auto;
+  background-color: #fc8a06;
+  border-radius: 25px;
+  padding: 15px 40px;
+  color: #ffffff;
+  border: none;
+}
+.input {
+  position: relative;
+}
+.input p {
+  font-size: 12px;
+  margin-top: 5px;
+  padding-left: 30px;
+}
+.socialIcons {
+  display: flex;
+  font-size: 33px;
+  gap: 10px;
+  margin-top: 20px;
+}
+.socialIcons a {
+  color: #03081f;
+}
+
+@media (max-width: 1000px) {
+  .higherFooter {
+    justify-content: center;
+
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 50px 100px;
+  }
+
+  .socials {
+    margin-right: 0;
+  }
+  .socials h3 {
+    margin-bottom: 5px;
+  }
+  .links {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 700px) {
+  .higherFooter {
+    padding: 50px 50px;
+  }
+  .lowerFooter {
+    padding: 25px 50px;
+  }
+  .socials {
+    margin-right: 0;
+  }
+  .socials h3 {
+    margin-bottom: 5px;
+  }
+  .links {
+    flex-direction: column;
+  }
+}
+@media (max-width: 450px) {
+  .input button {
+    right: 30px;
+    width: 120px;
+    text-align: left;
+  }
+  .socials input {
+    background-color: #d9d9d9;
+    border-radius: 25px;
+    padding: 15px 30px;
+    width: 200px;
+    color: #03081f;
+    border: none;
+  }
+}

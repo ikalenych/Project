@@ -1,0 +1,68 @@
+.card {
+  background: #fff;
+  border-radius: 5px;
+  padding: 16px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  width: 496px;
+  height: 200px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  background: #ddd;
+  border-radius: 50%;
+}
+
+.name {
+  margin: 0;
+  font-weight: 600;
+}
+
+.location {
+  margin: 0;
+  font-size: 14px;
+  color: #ff7a00;
+}
+
+.meta {
+  text-align: right;
+}
+
+.stars {
+  color: orange;
+  font-size: 18px;
+}
+
+.date {
+  font-size: 14px;
+
+  color: #666;
+  margin: 4px 0 0;
+}
+
+.text {
+  margin-top: 12px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 80vw;
+  }
+}

@@ -1,0 +1,27 @@
+.similar {
+  margin: 50px 70px;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  padding-bottom: 8px;
+  scrollbar-width: thin;
+  scrollbar-color: #df7b01 #fff;
+}
+
+.cards > * {
+  flex: 0 0 auto;
+}
+
+@media (max-width: 1280px) {
+  .cards {
+    scrollbar-width: none;
+  }
+  .similar {
+    margin: 50px 20px;
+  }
+}

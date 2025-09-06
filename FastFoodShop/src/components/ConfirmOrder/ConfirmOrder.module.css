@@ -1,0 +1,98 @@
+.pageWrapper {
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.mainContent {
+  flex: 1;
+  padding: 50px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+.section h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section p {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #333;
+}
+
+.section .total {
+  font-size: 18px;
+  font-weight: bold;
+  color: #027532;
+  margin-top: 10px;
+}
+.itemsList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.confirmBtn {
+  display: block;
+  background: #027532;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.infoMessage {
+  color: rgb(236, 74, 10);
+  font-weight: bold;
+}
+
+.backBtn {
+  display: block;
+  background: #027532;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media (max-width: 1120px) {
+  .mainContent {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+  }
+
+  .itemsList {
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .section {
+    margin-bottom: 15px;
+  }
+}
