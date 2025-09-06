@@ -1,7 +1,15 @@
 # React + TypeScript + Vite + Redux + Firebase
 
-A boilerplate project built with **React 18**, **TypeScript**, **Vite**, **Redux Toolkit**, and **Firebase**.  
-It provides a fast, modern setup for building scalable frontend applications.
+This is a solo project: a modern food ordering web application built with **React**, **TypeScript**, **Vite**, **Redux Toolkit**, and **Firebase**.  
+Users can browse food categories, view items, and manage orders. Authentication is handled via Firebase.
+
+## Features
+- User registration and login 
+- Browse and filter food by categories
+- Add items to the cart and view order summary
+- Responsive UI built with React components
+- State management with **Redux Toolkit**
+- Firebase Firestore for storing orders and user data
 
 ## Tech Stack
 - React 18 — UI library  
